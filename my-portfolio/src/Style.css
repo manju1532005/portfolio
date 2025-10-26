@@ -331,7 +331,7 @@ a { text-decoration: none; color: inherit; }
 .contact-form textarea { width: 100%; padding: 15px 20px; background-color: #3C1F0E; border: 2px solid #D9822B; border-radius: 8px; color: #FFEFE3; font-size: 1rem; outline: none; transition: all 0.3s ease; }
 .contact-form input:focus,
 .contact-form textarea:focus { border-color: #F2A654; box-shadow: 0 0 10px rgba(242,166,84,0.5); }
-.contact-form .btn.primary { background-color: #D9822B; color: #1B0A00; }
+.contact-form .btn.primary { background-color: #D9822B; color: #1B0A00;  }
 .contact-form .btn.primary:hover { background-color: #F2A654; }
 
 /* -----------------------------------
@@ -400,5 +400,15 @@ a { text-decoration: none; color: inherit; }
   .btn {
     width: 80%;               /* make buttons same width and centered */
     text-align: center;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .contact-form .btn.primary {
+    display: block;       /* makes it a block element */
+    margin: 0 auto;       /* centers it horizontally */
+    width: 80%;           /* optional: make it slightly smaller than form width */
+    text-align: center;   /* ensures text inside button is centered */
   }
 }
