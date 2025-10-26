@@ -8,7 +8,7 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import "./style.css"; // Make sure you import CSS for the scroll bar
+import "./Style.css"; // Make sure you import CSS for the scroll bar
 
 // ScrollProgress Component
 const ScrollProgress = () => {
