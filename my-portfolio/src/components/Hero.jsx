@@ -74,7 +74,7 @@ const Hero = () => {
             Hire Me
           </a>
           <a
-            href="/Manju-M Full Stack Developer.pdf"
+            href="/Manju M - FULL STACK DEVELOPER.pdf"
             className="btn outline"
             download
             onClick={handleRipple}
