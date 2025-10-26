@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "../style.css";
+import "../Style.css";
 import passportImg from "../assets/s2.jpg";
 
 const About = () => {

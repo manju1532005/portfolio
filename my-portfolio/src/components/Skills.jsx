@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "../style.css";
+import "../Style.css";
 import htmlImg from "../assets/html (2).png";
 import cssImg from "../assets/css.png";
 import jsImg from "../assets/javascript.png";

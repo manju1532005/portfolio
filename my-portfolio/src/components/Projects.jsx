@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "../style.css";
+import "../Style.css";
 import todoImg from "../assets/collab.png";
 import bloodHeroImg from "../assets/task.png";
 import medicineFinderImg from "../assets/Screenshot (330).png";

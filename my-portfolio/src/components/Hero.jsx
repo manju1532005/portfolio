@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import Typed from "typed.js"; // Make sure this package is installed
-import "../style.css";
+import "../Style.css";
 import bgImage from "../assets/f1.jpg";
 const Hero = () => {
   const typedRef = useRef(null);

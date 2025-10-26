@@ -1,5 +1,5 @@
 import React from "react";
-import "../style.css";
+import "../Style.css";
 import useScrollReveal from "./useScrollReveal"; // make sure this hook exists
 
 const timelineData = [

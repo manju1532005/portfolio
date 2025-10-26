@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "../style.css";
+import "../Style.css";
 
 const educationData = [
   {
