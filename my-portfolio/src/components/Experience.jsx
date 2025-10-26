@@ -1,19 +1,19 @@
 import React from "react";
 import "../Style.css";
-import useScrollReveal from "./useScrollReveal"; // make sure this hook exists
+import useScrollReveal from "./useScrollReveal"; // ensure this hook exists
 
 const timelineData = [
   {
     title: "Web Developer Intern",
-    date: "Aug 2025 – Present",
+    date: "Aug - Sep 2025",
     description:
-      "Working on full-stack applications using React.js, Node.js, and MongoDB. Building responsive UIs and integrating APIs.",
+      "Worked on web applications using React, Node.js, and MongoDB. Built responsive and user-friendly designs.",
   },
   {
     title: "MERN Stack Developer Internship",
     date: "2024 – 2025",
     description:
-      "Created small-scale projects for clients including portfolio websites and single-page applications.",
+      "Developed small web projects and portfolio websites using React and Node.js.",
   },
 ];
 
@@ -30,14 +30,11 @@ const TimelineItem = ({ title, date, description, className }) => {
     ripple.style.top = `${e.clientY - rect.top - size / 2}px`;
 
     e.currentTarget.appendChild(ripple);
-
-    setTimeout(() => {
-      ripple.remove();
-    }, 600);
+    setTimeout(() => ripple.remove(), 600);
   };
 
   return (
-    <div className={className} onClick={handleClick}>
+    <div className={`${className} timeline-item`} onClick={handleClick}>
       <div className="timeline-dot"></div>
       <div className="timeline-content">
         <h3>{title}</h3>
@@ -49,12 +46,11 @@ const TimelineItem = ({ title, date, description, className }) => {
 };
 
 const Experience = () => {
-  // Apply scroll reveal animation to all timeline items
   useScrollReveal(".timeline-item");
 
   return (
     <section id="experience" className="timeline-section">
-      <h2>Experience</h2>
+      <h2 className="section-title">Experience</h2>
       <div className="timeline">
         {timelineData.map((item, index) => (
           <TimelineItem
@@ -62,7 +58,7 @@ const Experience = () => {
             title={item.title}
             date={item.date}
             description={item.description}
-            className="timeline-item reveal" // needed for scroll reveal
+            className="reveal"
           />
         ))}
       </div>

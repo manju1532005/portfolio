@@ -58,7 +58,7 @@ const Hero = () => {
       <div className="hero-content">
         <p className="tagline">TURNING IDEAS INTO DIGITAL REALITY</p>
         <h1>
-          Hey, I am <span className="highlight">Manju</span>
+          Hi, I am <span className="highlight">Manju</span>
         </h1>
         <h2 ref={typedRef}></h2>
 
@@ -71,7 +71,7 @@ const Hero = () => {
               handleScrollToContact(e);
             }}
           >
-            Hire Me
+            Let's Work Together
           </a>
           <a
             href="/Manju M - FULL STACK DEVELOPER.pdf"
@@ -79,7 +79,7 @@ const Hero = () => {
             download
             onClick={handleRipple}
           >
-            Download CV
+            Get My CV
           </a>
         </div>
       </div>

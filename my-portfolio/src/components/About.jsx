@@ -54,7 +54,7 @@ const About = () => {
             <p><strong>Full Name:</strong> Manju M</p>
             <p><strong>Date of birth:</strong> March 15, 2005</p>
             <p><strong>Address:</strong> Palakkad, Kerala, India</p>
-            <p><strong>Zip code:</strong> 678681</p>
+          
             <p><strong>Email:</strong> <a href="mailto:manjumm454545@gmail.com">manjumm454545@gmail.com</a></p>
             <p><strong>Phone:</strong> <a href="tel:+917510715947">+91-7510715947</a></p>
           </div>
